@@ -1,0 +1,18 @@
+{
+  "name": "milight-ble",
+  "version": "1.0.0",
+  "description": "Library to control MiLight/LimitlessLED Bluetooth RGB LED bulbs.",
+  "author": "Johan Nordberg <code@johan-nordberg.com>",
+  "license": "MIT",
+  "main": "lib/bulb.js",
+  "scripts": {
+    "prepublish": "coffee -b -c -o lib src"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "noble": "^1.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.1"
+  }
+}
